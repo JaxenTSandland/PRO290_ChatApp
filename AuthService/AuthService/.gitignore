@@ -1,0 +1,27 @@
+# Ignore build outputs
+bin/
+obj/
+artifacts/
+*.log
+*.cache
+
+# Ignore Rider and VS project files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.nuget.dgspec.json
+*.nuget.props
+*.nuget.targets
+
+# Ignore test results
+TestResults/
+
+# OS files
+.DS_Store
+Thumbs.db
